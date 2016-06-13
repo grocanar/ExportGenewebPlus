@@ -41,7 +41,7 @@ ce tableau contient la correspondance des événements familaux.
 il y a une correponsance presque parfaite sauf pour l'evenement CENSUS qui n'a pas de tag cortrespondant dans geneweb. C'est en modifiant ce tableau si on veut modifier les valeurs.
 Pour un evenement personnalisé c'est le nom de l'evenement qui est pris pour le tag geneweb. Geneanet l'affichera alors tel quel.
 Event type dans gramps | tag dans geneweb
------------------------------------------
+---------- | ----------------------------
 ANNULMENT  | "#anul",
 DIV_FILING | "#div",
 DIVORCE    | "#div",
