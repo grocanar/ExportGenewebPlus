@@ -60,14 +60,79 @@ Pour un evenement personnalisé c'est le nom de l'evenement qui est pris pour le
 ce tableau contient la correspondance des événements personnels.
 Plusieurs évenements ne sont pas reconnus dans geneweb et certains tags geneweb n'ont pas de correspondances dans GRAMPS.
 
+Type Evenement     | tag geneweb |
+------------------ | ----------- |
+| ADOPT            | "#adoption" |
+| ADULT_CHRISTEN   | "#bapt" |
+| BIRTH            | "#birt" |
+| DEATH            | "#deat" |
+| BAPTISM          | "#bapt" |
+| BAR_MITZVAH      | "#barm" |
+| BAS_MITZVAH      | "#basm" |
+| BLESS            | "#bles" |
+| BURIAL           | "#buri" |
+| CAUSE_DEATH      | "#cause_de_la_mort" |
+| ORDINATION       | "#ordn" |
+| CENSUS           | "#cens" |
+| CHRISTEN         | "#bapt" |
+| CONFIRMATION     | "#conf" |
+| CREMATION        | "#crem" |
+| DEGREE           | "#degr" |
+| DIV_FILING       | "#divers" |
+| EDUCATION        | "#education" |
+| ELECTED          | "#elec" |
+| EMIGRATION       | "#emig" |
+| FIRST_COMMUN     | "#first_common" |
+| GRADUATION       | "#grad" |
+| MED_INFO         | "#info_medicale" |
+| MILITARY_SERV    | "#mser" |
+| NATURALIZATION   | "#natu" |
+| NOB_TITLE        | "#title" |
+| NUM_MARRIAGES    | "#nmr" |
+| IMMIGRATION      | "#immi" |
+| OCCUPATION       | "#occu" |
+| PROBATE          | "#probation" |
+| PROPERTY         | "#prop" |
+| RELIGION         | "#religion" |
+| RESIDENCE        | "#resi" |
+| RETIREMENT       | "#reti" |
+| WILL             | "#will" |
+
 ### RELATIONCONSTANTEVENTS
 Ce tableau contient les relations qu'il faut écrire si on veut utiliser les tages geneweb correspondant.
+
+| RELA dans gramps         | relation dans geneweb |
+| ------------------------ | --------------------- |
+| Père Adoptif"            | "adop fath" |
+| Mère Adoptive"           | "adop moth" |
+| Père Reconnu"            | "reco fath" |
+| Mère Reconnue"           | "reco moth" |
+| Père Possible"           | "cand fath" |
+| Mère Possible"           | "cand moth" |
+| Père Nourricier"         | "fost fath" |
+| Mère Nourricière"        | "fost moth" |
+| Parrain"                 | "godp fath" |
+| Marraine"                | "godp moth" |
 
 ### RELATIONEVENTS
 Ce tableau traite le cas particulier du baptème. On définit le role "CUSTOM3 que doit avoir une personne dans un évenement pour endosser le rôle de Parrain ou de Marraine.
 
+| Role dans l'evenement      | relation dans geneweb | 
+| -------------------------- | --------------------- |
+ | "Parrain"                 | "godp fath" |
+ | "Marraine"                | "godp moth" |
+
 ### WITNESSROLETYPE
 Contient la liste des roles dans les évenements qui permettent de devenir un témoins sur geneweb.
+
+| Role |
+-------
+ | WITNESS |
+ | CELEBRANT |
+ | INFORMANT |
+ | CLERGY |
+ | AIDE |
+
 
 
 ##Limitations
