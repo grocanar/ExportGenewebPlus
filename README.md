@@ -119,19 +119,19 @@ Ce tableau traite le cas particulier du baptème. On définit le role "CUSTOM3 q
 
 | Role dans l'evenement      | relation dans geneweb | 
 | -------------------------- | --------------------- |
- | "Parrain"                 | "godp fath" |
- | "Marraine"                | "godp moth" |
+| "Parrain"                 | "godp fath" |
+| "Marraine"                | "godp moth" |
 
 ### WITNESSROLETYPE
 Contient la liste des roles dans les évenements qui permettent de devenir un témoins sur geneweb.
 
 | Role |
 -------
- | WITNESS |
- | CELEBRANT |
- | INFORMANT |
- | CLERGY |
- | AIDE |
+| WITNESS |
+| CELEBRANT |
+| INFORMANT |
+| CLERGY |
+| AIDE |
 
 
 
